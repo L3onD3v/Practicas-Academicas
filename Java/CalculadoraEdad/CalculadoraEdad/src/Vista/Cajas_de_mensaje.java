@@ -1,0 +1,24 @@
+package Vista;
+
+import javax.swing.JOptionPane;
+
+public class Cajas_de_mensaje {
+    private String titulo;
+
+    public Cajas_de_mensaje() {
+        titulo = "";
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public int solicitarData(String mensaje) {
+        return Integer.parseInt(JOptionPane.showInputDialog(null, mensaje, titulo, 1));
+    }
+    public void mostrarResultado(String mensaje) {
+        JOptionPane.showMessageDialog(null, mensaje, titulo, 1);
+    }
+}
