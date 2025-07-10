@@ -1,10 +1,11 @@
 
 # Prácticas Académicas
 
-Este repositorio contiene una colección organizada de prácticas académicas desarrolladas como parte de mi proceso de formación como Instructor Sena en la formación complementaria virtual. 
+Este repositorio contiene una colección organizada de prácticas académicas desarrolladas como parte de mis procesos de formación como Instructor Sena en la formación complementaria virtual de la red de conocimiento Programación de Software. 
+Asi también ejercicios de entrenamiento para la habilidad 9 IT Soluciones de Software para la competencia de WorldSkills como Experto Regional.
 Los ejercicios y proyectos están divididos por lenguajes y tecnologías, y abordan temas fundamentales de cada área.
 
-> Este repositorio refleja mi interés y compromiso por compartir mi conocimiento y crear un espacio alternativo para el manejo y consulkta de mis aprendices, fortaleciendo el desarrollo de software, 
+> Este repositorio refleja mi interés y compromiso por compartir mi conocimiento y crear un espacio alternativo para el manejo y consulta de mis aprendices, fortaleciendo el desarrollo de software, 
 análisis de datos y resolución de problemas con código.
 
 ## 📂 Estructura del repositorio
@@ -13,7 +14,7 @@ análisis de datos y resolución de problemas con código.
 Practicas-Academicas/
 ├── Analisis-datos/    # Proyectos y notebooks de análisis de datos con Python
 ├── C++/               # Actividades y ejercicios prácticos en lenguaje C++
-├── Java/              # Ejercicios estructurados y con patrón MVC en Java
+├── Java/              # Ejercicios estructurados desde básico a avanzado con Java
 ├── Python/            # Actividades introductorias y ejercicios de lógica
 └── SQL/               # Consultas, estructuras y prácticas en bases de datos
 ```
