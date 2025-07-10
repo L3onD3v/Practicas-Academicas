@@ -9,7 +9,7 @@ public class ControladorRegistro {
 
     public ControladorRegistro() {
         objetoVista = new Cajas_de_mensaje();
-        objetoModelo = new Usuario(null, null, null);
+        objetoModelo = new Usuario();
     }
 
     public void iniciar() {
@@ -17,10 +17,18 @@ public class ControladorRegistro {
 
         String nombre = objetoVista.solicitarData("Ingrese su nombre");
         String correo = objetoVista.solicitarData("Ingrese su correo electronico");
-        String contrasena = objetoVista.solicitarData("Ingrese una contrtaséña");
-        String confirmacion = objetoVista.solicitarData("Confirme contraséña");
+        String contrasena = objetoVista.solicitarData("Ingrese una contraseña");
+        String confirmacion = objetoVista.solicitarData("Confirme contraseña");
 
-        objetoModelo.Usu
+        objetoModelo.setDatos(nombre, correo, contrasena);
+
+        if (!objetoModelo.validarCorreo()) {
+            objetoVista.mostrarMensaje("El correo no es valido");
+        } else if (!objetoModelo.validarContrasena(confirmacion)) {
+            objetoVista.mostrarMensaje("Las contraséñas no coinciden");
+        } else {
+            objetoVista.mostrarMensaje("Registro éxitoso" + objetoModelo.getNombre());
+        }
 
     }
 

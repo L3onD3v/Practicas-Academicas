@@ -5,7 +5,7 @@ public class Usuario {
     private String email;
     private String password;
 
-    public Usuario(String nombre, String email, String password) {
+    public void setDatos(String nombre, String email, String password) {
         this.nombre = nombre;
         this.email = email;
         this.password = password;
@@ -16,7 +16,7 @@ public class Usuario {
     }
 
     public boolean validarContrasena(String confirmacion) {
-        return password.equals(confirmacion) && password.length() >= 6;
+        return password.equals(confirmacion) && password.length() >= 3;
     }
 
     public String getNombre() {
