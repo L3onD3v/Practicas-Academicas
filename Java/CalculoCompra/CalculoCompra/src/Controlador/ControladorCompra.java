@@ -37,10 +37,4 @@ public class ControladorCompra {
 
     }
 
-    @Override
-    public String toString() {
-        return "ControladorCompra [objetoModelo=" + objetoModelo + ", objetoVista=" + objetoVista + ", getClass()="
-                + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
-    }
-
 }
