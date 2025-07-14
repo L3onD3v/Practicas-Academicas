@@ -1,7 +1,11 @@
 package App;
 
+import Controlador.ControladorCompra;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        ControladorCompra controlador = new ControladorCompra();
+        controlador.iniciar();
+
     }
 }

@@ -1,16 +1,16 @@
 package Modelo;
 
 public class Compra {
-    private String nombre;
+    private String cliente;
     private String producto;
     private double precioUnitario;
     private int cantidad;
     private double descuento;
 
-    public void setDatos(String nombre, String producto, Double precioUnitario, int cantidad, double descuento) {
-        this.nombre = nombre;
+    public void setDatos(String cliente, String producto, Double precio, int cantidad, double descuento) {
+        this.cliente = cliente;
         this.producto = producto;
-        this.precioUnitario = precioUnitario;
+        this.precioUnitario = precio;
         this.cantidad = cantidad;
         this.descuento = descuento;
     }
@@ -27,8 +27,8 @@ public class Compra {
         return calcularSubTotal() - calcularDescuento();
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getcliente() {
+        return cliente;
     }
 
     public String getProducto() {
