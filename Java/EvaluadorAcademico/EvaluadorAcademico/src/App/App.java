@@ -1,7 +1,11 @@
 package App;
 
+import Controlador.ControladorNotas;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        ControladorNotas controlador = new ControladorNotas();
+        controlador.iniciar();
+
     }
 }
