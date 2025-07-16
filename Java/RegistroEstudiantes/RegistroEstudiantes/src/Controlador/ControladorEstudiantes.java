@@ -37,7 +37,7 @@ public class ControladorEstudiantes {
         StringBuilder resumen = new StringBuilder("Resumen de estudiantes\n");
 
         for (Estudiante est : estudiantes) {
-            resumen.append(". ").append(est.getNombre())
+            resumen.append("=> ").append(est.getNombre())
                     .append(" - ").append(est.getEdad()).append(" años")
                     .append(" -").append(est.getPrograma()).append("\n");
             totalEdad += est.getEdad();
