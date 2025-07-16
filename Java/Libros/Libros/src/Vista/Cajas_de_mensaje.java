@@ -42,4 +42,12 @@ public class Cajas_de_mensaje {
                 JOptionPane.INFORMATION_MESSAGE);
     }
 
+    public double solicitarDouble(String mensaje) {
+        return Double.parseDouble(JOptionPane.showInputDialog(
+                null,
+                mensaje,
+                titulo,
+                JOptionPane.PLAIN_MESSAGE));
+    }
+
 }
