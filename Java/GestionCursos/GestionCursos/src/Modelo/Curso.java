@@ -1,19 +1,19 @@
 package Modelo;
 
 public class Curso {
-    private int codigo;
+    private String codigo;
     private String nombre;
-    private double duracion;
+    private int duracion;
     private int cupos;
 
-    public Curso(int codigo, String nombre, double duracion, int cupos) {
+    public Curso(String codigo, String nombre, int duracion, int cupos) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.duracion = duracion;
         this.cupos = cupos;
     }
 
-    public int getCodigo() {
+    public String getCodigo() {
         return codigo;
     }
 
@@ -21,7 +21,7 @@ public class Curso {
         return nombre;
     }
 
-    public double getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
