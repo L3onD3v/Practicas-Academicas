@@ -1,0 +1,12 @@
+Nombre: Luis
+Edad: 23
+Motivo: Tos
+Fecha: 2025-07-21
+Nombre: Martha
+Edad: 48
+Motivo: Fiebre
+Fecha: 2025-07-21
+Nombre: Carlos
+Edad: 23
+Motivo: Pierna
+Fecha: 2025-07-21
