@@ -1,7 +1,10 @@
 package App;
 
+import Controlador.ControladorReserva;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        ControladorReserva controlador = new ControladorReserva();
+        controlador.iniciar();
     }
 }

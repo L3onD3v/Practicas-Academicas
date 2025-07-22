@@ -4,23 +4,23 @@ import java.time.LocalDate;
 
 public class Reserva {
     private String nombre;
-    private int numero;
+    private int numeroHabitacion;
     LocalDate fecha;
     private int noches;
 
-    public Reserva(String nombre, int numero, LocalDate fecha, int noches) {
+    public Reserva(String nombre, int numeroHabitacion, LocalDate fecha, int noches) {
         this.nombre = nombre;
-        this.numero = numero;// Numero de habitación
+        this.numeroHabitacion = numeroHabitacion;// numeroHabitacion de habitación
         this.fecha = fecha;
-        this.noches = noches; // Numero de noches
+        this.noches = noches; // numeroHabitacion de noches
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public int getNumero() {
-        return numero;
+    public int getnumeroHabitacion() {
+        return numeroHabitacion;
     }
 
     public LocalDate getFecha() {
@@ -32,10 +32,10 @@ public class Reserva {
     }
 
     public String getResumen() {
-        return "Nombre" + nombre + "\n" +
-                "Número de la habitación" + numero + "\n" +
-                "fecha de la reserva" + fecha + "\n" +
-                "Número de noches" + noches + "\n";
+        return "Nombre: " + nombre + "\n" +
+                "Número de la habitación: " + numeroHabitacion + "\n" +
+                "fecha de la reserva: " + fecha + "\n" +
+                "Número de noches; " + noches + "\n";
 
     }
 

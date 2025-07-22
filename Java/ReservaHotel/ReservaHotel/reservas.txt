@@ -1,0 +1,40 @@
+NombreLuis
+Número de la habitación23
+fecha de la reserva2025-01-01
+Número de noches4
+
+NombreCarlos
+Número de la habitación23
+fecha de la reserva2023-01-01
+Número de noches5
+
+NombreLuis
+Número de la habitación23
+fecha de la reserva2025-01-01
+Número de noches3
+
+NombreCarlos
+Número de la habitación23
+fecha de la reserva2025-01-02
+Número de noches6
+
+NombreLuis
+Número de la habitación23
+fecha de la reserva2025-01-01
+Número de noches3
+
+NombreCarlos
+Número de la habitación21
+fecha de la reserva2025-01-01
+Número de noches6
+
+Nombre: Luis Perez
+Número de la habitación: 234
+fecha de la reserva: 2025-09-09
+Número de noches; 6
+
+Nombre: Carlos Villagran
+Número de la habitación: 123
+fecha de la reserva: 2025-10-10
+Número de noches; 3
+

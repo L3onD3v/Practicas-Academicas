@@ -1,5 +1,6 @@
 package Vista;
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class Cajas_de_mensaje {
@@ -10,7 +11,9 @@ public class Cajas_de_mensaje {
     }
 
     public void setTitulo(String titulo) {
-        this.titulo = titulo;
+        JFrame frame = new JFrame(titulo);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(false);
     }
 
     public String solicitarTexto(String mensaje) {
