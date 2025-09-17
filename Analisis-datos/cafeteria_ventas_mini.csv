@@ -1,0 +1,61 @@
+sucursal,producto,hora,tipo_cliente,ventas
+Universidad,Café,3-6pm,Mostrador,23
+Residencial,Café,7-9am,Mostrador,18
+Residencial,Café,7-9am,App,7
+Centro,Café,7-9am,Mostrador,8
+Residencial,Pastel,3-6pm,App,1
+Centro,Pastel,7-9am,Mostrador,23
+Universidad,Bagel,12-2pm,App,3
+Centro,Bagel,3-6pm,App,24
+Centro,Café,3-6pm,Mostrador,23
+Centro,Cold Brew,3-6pm,Mostrador,8
+Centro,Cold Brew,3-6pm,App,22
+Universidad,Pastel,12-2pm,App,15
+Universidad,Pastel,3-6pm,Mostrador,5
+Residencial,Pastel,3-6pm,Mostrador,3
+Universidad,Bagel,7-9am,App,19
+Universidad,Bagel,3-6pm,Mostrador,1
+Residencial,Pastel,12-2pm,Mostrador,15
+Universidad,Pastel,12-2pm,App,8
+Centro,Pastel,12-2pm,Mostrador,2
+Centro,Cold Brew,12-2pm,Mostrador,3
+Residencial,Bagel,3-6pm,Mostrador,24
+Residencial,Cold Brew,3-6pm,Mostrador,14
+Residencial,Cold Brew,12-2pm,Mostrador,24
+Centro,Pastel,12-2pm,App,14
+Universidad,Pastel,3-6pm,Mostrador,11
+Centro,Café,12-2pm,Mostrador,16
+Residencial,Café,7-9am,Mostrador,4
+Universidad,Cold Brew,12-2pm,Mostrador,20
+Universidad,Bagel,12-2pm,App,5
+Centro,Pastel,7-9am,Mostrador,22
+Residencial,Pastel,7-9am,Mostrador,21
+Centro,Cold Brew,3-6pm,App,14
+Universidad,Café,3-6pm,Mostrador,23
+Centro,Bagel,7-9am,Mostrador,16
+Centro,Café,7-9am,Mostrador,18
+Residencial,Café,3-6pm,Mostrador,7
+Residencial,Café,12-2pm,Mostrador,10
+Universidad,Café,7-9am,Mostrador,7
+Centro,Pastel,3-6pm,App,1
+Centro,Pastel,12-2pm,Mostrador,23
+Centro,Café,7-9am,Mostrador,21
+Universidad,Bagel,12-2pm,App,19
+Universidad,Cold Brew,3-6pm,Mostrador,16
+Residencial,Bagel,7-9am,App,19
+Residencial,Bagel,12-2pm,Mostrador,4
+Residencial,Bagel,7-9am,Mostrador,18
+Centro,Café,12-2pm,App,2
+Centro,Pastel,3-6pm,Mostrador,1
+Residencial,Bagel,3-6pm,Mostrador,15
+Centro,Café,7-9am,Mostrador,5
+Residencial,Bagel,12-2pm,Mostrador,20
+Universidad,Bagel,7-9am,App,11
+Residencial,Café,7-9am,Mostrador,10
+Universidad,Pastel,12-2pm,Mostrador,2
+Centro,Pastel,12-2pm,Mostrador,3
+Residencial,Cold Brew,12-2pm,App,23
+Centro,Café,3-6pm,Mostrador,23
+Universidad,Cold Brew,7-9am,App,12
+Universidad,Cold Brew,7-9am,Mostrador,20
+Universidad,Cold Brew,3-6pm,App,5
